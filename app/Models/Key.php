@@ -17,4 +17,9 @@ class Key extends Model
     {
         return $this->belongsToMany('App\Models\Program');
     }
+
+    public function parameters()
+    {
+        return $this->belongsToMany('App\Models\Parameter');
+    }
 }

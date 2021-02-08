@@ -5,12 +5,14 @@ namespace App\Models;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 
-class Program extends Model
+class Parameter extends Model
 {
     use HasFactory;
 
     protected $fillable = [
-        'title_code', 'title'
+        'dreambox_theme',
+        'dreambox_orientation',
+        'dreambox_title'
     ];
 
     public function keys()

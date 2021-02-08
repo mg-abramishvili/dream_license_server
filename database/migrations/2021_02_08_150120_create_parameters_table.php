@@ -4,7 +4,7 @@ use Illuminate\Database\Migrations\Migration;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\Facades\Schema;
 
-class CreateProgramsTable extends Migration
+class CreateParametersTable extends Migration
 {
     /**
      * Run the migrations.
@@ -13,10 +13,11 @@ class CreateProgramsTable extends Migration
      */
     public function up()
     {
-        Schema::create('programs', function (Blueprint $table) {
+        Schema::create('parameters', function (Blueprint $table) {
             $table->id();
-            $table->string('title_code');
-            $table->string('title');
+            $table->string('dreambox_theme')->nullable();
+            $table->string('dreambox_orientation')->nullable();
+            $table->string('dreambox_title')->nullable();
             $table->timestamps();
         });
     }
@@ -28,6 +29,6 @@ class CreateProgramsTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('programs');
+        Schema::dropIfExists('parameters');
     }
 }

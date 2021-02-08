@@ -33,7 +33,7 @@ class KeyApiController extends Controller
 
     public function view($key)
     {
-        $key = Key::where('key', '=', $key)->with('programs')->firstOrFail();
+        $key = Key::where('key', '=', $key)->with('programs')->with('parameters')->firstOrFail();
         return response()->json($key);
     }
 

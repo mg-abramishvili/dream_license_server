@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use App\Models\Key;
 use App\Models\Program;
+use App\Models\Parameter;
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
 use Auth;
@@ -36,6 +37,12 @@ class KeyController extends Controller
         $key->comment = $data['comment'];
         $key->save();
         $key->programs()->attach($request->programs, ['key_id' => $key->id]);
+        $parameters = new Parameter([
+            'dreambox_theme' => $data['dreambox_theme'],
+            'dreambox_orientation' => $data['dreambox_orientation'],
+            'dreambox_title' => $data['dreambox_title']
+        ]);
+        $key->parameters()->save($parameters);
         return redirect('/keys');
     }
 

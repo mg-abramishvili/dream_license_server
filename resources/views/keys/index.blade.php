@@ -19,6 +19,9 @@
                     <th scope="col" class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
                         Комментарий
                     </th>
+                    <th scope="col" class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
+                        Параметры
+                    </th>
                     <th scope="col" class="relative px-6 py-3">
                         <span class="sr-only">Удалить</span>
                     </th>
@@ -29,9 +32,7 @@
                 <tr>
                     <td class="px-6 py-4 whitespace-nowrap">
                         <div class="flex items-center">
-                            <div class="text-sm font-medium text-gray-900">
-                                {{ $key->key }}
-                            </div>
+                            <div class="text-sm font-medium text-gray-900">{{ $key->key }}</div>
                         </div>
                     </td>
                     <td class="px-6 py-4 whitespace-nowrap">
@@ -54,6 +55,25 @@
                         <div class="flex items-center">
                             <div class="text-sm font-medium text-gray-900">
                                 {{ $key->comment }}
+                            </div>
+                        </div>
+                    </td>
+                    <td class="px-6 py-4 whitespace-nowrap">
+                        <div class="flex items-center">
+                            <div class="text-sm font-medium text-gray-900">
+                                @foreach($key->parameters as $parameter)
+                                    @isset($parameter->dreambox_theme)
+                                        Тема: {{ $parameter->dreambox_theme }}<br>
+                                    @endisset
+
+                                    @isset($parameter->dreambox_orientation)
+                                        Ориентация: {{ $parameter->dreambox_orientation }}<br>
+                                    @endisset
+
+                                    @isset($parameter->dreambox_title)
+                                        Заголовок: {{ $parameter->dreambox_title }}<br>
+                                    @endisset
+                                @endforeach
                             </div>
                         </div>
                     </td>

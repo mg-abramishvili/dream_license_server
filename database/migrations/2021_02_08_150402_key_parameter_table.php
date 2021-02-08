@@ -4,7 +4,7 @@ use Illuminate\Database\Migrations\Migration;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\Facades\Schema;
 
-class CreateProgramsTable extends Migration
+class KeyParameterTable extends Migration
 {
     /**
      * Run the migrations.
@@ -13,11 +13,10 @@ class CreateProgramsTable extends Migration
      */
     public function up()
     {
-        Schema::create('programs', function (Blueprint $table) {
+        Schema::create('key_parameter', function (Blueprint $table) {
             $table->id();
-            $table->string('title_code');
-            $table->string('title');
-            $table->timestamps();
+            $table->integer('parameter_id');
+            $table->integer('key_id');
         });
     }
 
@@ -28,6 +27,6 @@ class CreateProgramsTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('programs');
+        Schema::dropIfExists('key_parameter');
     }
 }

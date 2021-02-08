@@ -19,10 +19,12 @@ class ProgramSeeder extends Seeder
         DB::table('programs')->insert([
             [
                 'id' => '1',
+                'title_code' => 'dreambox',
                 'title' => 'Коробка',
             ],
             [
                 'id' => '2',
+                'title_code' => 'navigator',
                 'title' => 'Навигатор ТЦ',
             ],
         ]);
