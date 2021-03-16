@@ -12,7 +12,10 @@ class Parameter extends Model
     protected $fillable = [
         'dreambox_theme',
         'dreambox_orientation',
-        'dreambox_title'
+        'dreambox_title',
+        'dreambox_module_photoalbums',
+        'dreambox_module_videoalbums',
+        'dreambox_module_news',
     ];
 
     public function keys()

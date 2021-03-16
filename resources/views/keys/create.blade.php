@@ -33,6 +33,28 @@
                     <label>Заголовок на экране</label>
                     <input type="text" name="dreambox_title" class="w-full px-4 py-2 mb-4 mr-4 text-base text-blue-700 bg-gray-100 border-transparent rounded-lg focus:border-gray-500 focus:bg-white focus:ring-0">
 
+                    <hr>
+
+                    <label>Модуль "Фотогалерея"</label>
+                    <select name="dreambox_module_photoalbums" class="block w-full bg-gray-100 border-transparent rounded-lg focus:border-gray-500 focus:bg-white focus:ring-0">
+                        <option value="y">Вкл</option>
+                        <option value="n">Выкл</option>
+                    </select>
+
+                    <label>Модуль "Видеогалерея"</label>
+                    <select name="dreambox_module_videoalbums" class="block w-full bg-gray-100 border-transparent rounded-lg focus:border-gray-500 focus:bg-white focus:ring-0">
+                        <option value="y">Вкл</option>
+                        <option value="n">Выкл</option>
+                    </select>
+
+                    <label>Модуль "Новости"</label>
+                    <select name="dreambox_module_news" class="block w-full bg-gray-100 border-transparent rounded-lg focus:border-gray-500 focus:bg-white focus:ring-0">
+                        <option value="y">Вкл</option>
+                        <option value="n">Выкл</option>
+                    </select>
+
+                    <hr>
+
                     <button class="w-full px-8 py-2 font-semibold text-white transition duration-500 ease-in-out transform rounded-lg shadow-xl bg-gradient-to-r from-blue-700 hover:from-blue-600 to-blue-600 hover:to-blue-700 focus:ring focus:outline-none">Добавить ключ</button>
                 </form>
             </div>

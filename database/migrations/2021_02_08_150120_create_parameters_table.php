@@ -18,6 +18,9 @@ class CreateParametersTable extends Migration
             $table->string('dreambox_theme')->nullable();
             $table->string('dreambox_orientation')->nullable();
             $table->string('dreambox_title')->nullable();
+            $table->string('dreambox_module_photoalbums')->nullable();
+            $table->string('dreambox_module_videoalbums')->nullable();
+            $table->string('dreambox_module_news')->nullable();
             $table->timestamps();
         });
     }

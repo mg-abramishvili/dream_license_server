@@ -40,7 +40,10 @@ class KeyController extends Controller
         $parameters = new Parameter([
             'dreambox_theme' => $data['dreambox_theme'],
             'dreambox_orientation' => $data['dreambox_orientation'],
-            'dreambox_title' => $data['dreambox_title']
+            'dreambox_title' => $data['dreambox_title'],
+            'dreambox_module_photoalbums' => $data['dreambox_module_photoalbums'],
+            'dreambox_module_videoalbums' => $data['dreambox_module_videoalbums'],
+            'dreambox_module_news' => $data['dreambox_module_news'],
         ]);
         $key->parameters()->save($parameters);
         return redirect('/keys');
