@@ -16,6 +16,7 @@ class Parameter extends Model
         'dreambox_module_photoalbums',
         'dreambox_module_videoalbums',
         'dreambox_module_news',
+        'dreambox_module_routes',
     ];
 
     public function keys()
