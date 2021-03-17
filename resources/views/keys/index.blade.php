@@ -81,6 +81,38 @@
                                         Фотогалерея: Выкл<br>
                                         @endif
                                     @endisset
+
+                                    @isset($parameter->dreambox_module_videoalbums)
+                                        @if($parameter->dreambox_module_videoalbums == 'y')
+                                        Видеогалерея: Вкл<br>
+                                        @else
+                                        Видеогалерея: Выкл<br>
+                                        @endif
+                                    @endisset
+
+                                    @isset($parameter->dreambox_module_news)
+                                        @if($parameter->dreambox_module_news == 'y')
+                                        Новости: Вкл<br>
+                                        @else
+                                        Новости: Выкл<br>
+                                        @endif
+                                    @endisset
+
+                                    @isset($parameter->dreambox_module_routes)
+                                        @if($parameter->dreambox_module_routes == 'y')
+                                        Маршруты: Вкл<br>
+                                        @else
+                                        Маршруты: Выкл<br>
+                                        @endif
+                                    @endisset
+
+                                    @isset($parameter->dreambox_module_reviews)
+                                        @if($parameter->dreambox_module_reviews == 'y')
+                                        Отзывы: Вкл<br>
+                                        @else
+                                        Отзывы: Выкл<br>
+                                        @endif
+                                    @endisset
                                 @endforeach
                             </div>
                         </div>
