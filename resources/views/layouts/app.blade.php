@@ -20,7 +20,7 @@
                 </a>
                 <nav class="flex flex-wrap items-center justify-center text-base md:ml-auto ">
                     <a href="/keys" class="mr-5 text-sm font-semibold text-gray-600 hover:text-gray-800">Ключи</a>
-                    <a href="/programs" class="mr-5 text-sm font-semibold text-gray-600 hover:text-gray-800">Софт</a>
+                    <!--<a href="/programs" class="mr-5 text-sm font-semibold text-gray-600 hover:text-gray-800">Софт</a>-->
                 </nav>
                 <button class="items-center px-8 py-2 mt-4 font-semibold text-blue-700 transition duration-500 ease-in-out transform bg-white border rounded-lg lg:inline-flex lg:mt-px hover:border-blue-800 hover:bg-blue-700 hover:text-white focus:ring focus:outline-none">Выйти</button>
             </div>

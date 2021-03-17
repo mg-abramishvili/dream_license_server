@@ -22,11 +22,6 @@ class ProgramSeeder extends Seeder
                 'title_code' => 'dreambox',
                 'title' => 'Коробка',
             ],
-            [
-                'id' => '2',
-                'title_code' => 'navigator',
-                'title' => 'Навигатор ТЦ',
-            ],
         ]);
     }
 }
