@@ -45,6 +45,7 @@ class KeyController extends Controller
             'dreambox_module_videoalbums' => $data['dreambox_module_videoalbums'],
             'dreambox_module_news' => $data['dreambox_module_news'],
             'dreambox_module_routes' => $data['dreambox_module_routes'],
+            'dreambox_module_reviews' => $data['dreambox_module_reviews'],
         ]);
         $key->parameters()->save($parameters);
         return redirect('/keys');

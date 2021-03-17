@@ -37,26 +37,32 @@
 
                     <label>Модуль "Фотогалерея"</label>
                     <select name="dreambox_module_photoalbums" class="block w-full bg-gray-100 border-transparent rounded-lg focus:border-gray-500 focus:bg-white focus:ring-0">
-                        <option value="y">Вкл</option>
                         <option value="n">Выкл</option>
+                        <option value="y">Вкл</option>
                     </select>
 
                     <label>Модуль "Видеогалерея"</label>
                     <select name="dreambox_module_videoalbums" class="block w-full bg-gray-100 border-transparent rounded-lg focus:border-gray-500 focus:bg-white focus:ring-0">
-                        <option value="y">Вкл</option>
                         <option value="n">Выкл</option>
+                        <option value="y">Вкл</option>
                     </select>
 
                     <label>Модуль "Новости"</label>
                     <select name="dreambox_module_news" class="block w-full bg-gray-100 border-transparent rounded-lg focus:border-gray-500 focus:bg-white focus:ring-0">
-                        <option value="y">Вкл</option>
                         <option value="n">Выкл</option>
+                        <option value="y">Вкл</option>
                     </select>
 
                     <label>Модуль "Маршруты"</label>
                     <select name="dreambox_module_routes" class="block w-full bg-gray-100 border-transparent rounded-lg focus:border-gray-500 focus:bg-white focus:ring-0">
-                        <option value="y">Вкл</option>
                         <option value="n">Выкл</option>
+                        <option value="y">Вкл</option>
+                    </select>
+
+                    <label>Модуль "Отзывы"</label>
+                    <select name="dreambox_module_reviews" class="block w-full bg-gray-100 border-transparent rounded-lg focus:border-gray-500 focus:bg-white focus:ring-0">
+                        <option value="n">Выкл</option>
+                        <option value="y">Вкл</option>
                     </select>
 
                     <hr>
