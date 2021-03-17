@@ -14,6 +14,11 @@
                     </div>
                     <div class="relative">
                         <textarea type="comment" id="comment" name="comment" placeholder="Комментарий" class="w-full px-4 py-2 mb-4 mr-4 text-base text-blue-700 bg-gray-100 border-transparent rounded-lg focus:border-gray-500 focus:bg-white focus:ring-0"></textarea>
+                        @if ($errors->has('comment'))
+                            <div class="text-red-500 mb-4">
+                                Укажите комментарий
+                            </div>
+                        @endif
                     </div>
 
                     <label>Тема</label>
