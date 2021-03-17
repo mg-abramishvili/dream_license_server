@@ -25,6 +25,10 @@ class KeyController extends Controller
 
     public function store(Request $request)
     {
+        $this->validate($request, [
+            'comment' => 'required',
+        ]);
+
         $generate1 = \Str::random(4);
         $generate2 = \Str::random(4);
         $generate3 = \Str::random(4);
