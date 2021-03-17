@@ -25,6 +25,7 @@
                     <select name="dreambox_theme" class="block w-full bg-gray-100 border-transparent rounded-lg focus:border-gray-500 focus:bg-white focus:ring-0">
                         <option value="default">Стандартная 1</option>
                         <option value="nast">Стандартная 2</option>
+                        <option value="med">Медцентр</option>
                         <option value="detsad">Детсад</option>
                         <option value="book">Книга</option>
                     </select>
