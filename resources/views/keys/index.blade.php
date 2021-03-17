@@ -73,6 +73,14 @@
                                     @isset($parameter->dreambox_title)
                                         Заголовок: {{ $parameter->dreambox_title }}<br>
                                     @endisset
+
+                                    @isset($parameter->dreambox_module_photoalbums)
+                                        @if($parameter->dreambox_module_photoalbums == 'y')
+                                        Фотогалерея: Вкл<br>
+                                        @else
+                                        Фотогалерея: Выкл<br>
+                                        @endif
+                                    @endisset
                                 @endforeach
                             </div>
                         </div>
