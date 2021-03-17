@@ -23,11 +23,13 @@ class ProgramController extends Controller
     {
         $this->validate($request, [
             'title' => 'required',
+            'title_code' => 'required',
         ]);
 
         $data = request()->all();
         $program = new Program();
         $program->title = $data['title'];
+        $program->title_code = $data['title_code'];
         $program->save();
         return redirect('/programs');
     }

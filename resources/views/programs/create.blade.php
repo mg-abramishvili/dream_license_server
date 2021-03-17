@@ -4,10 +4,18 @@
     <div class="flex flex-col w-full p-8 mx-auto mt-10 border rounded-lg lg:w-2/6 md:w-1/2 md:ml-auto md:mt-0">
         <form action="/programs" method="post" enctype="multipart/form-data">@csrf
             <div class="relative">
-                <input type="title" id="title" name="title" placeholder="Название" class="w-full px-4 py-2 mb-4 mr-4 text-base text-blue-700 bg-gray-100 border-transparent rounded-lg focus:border-gray-500 focus:bg-white focus:ring-0">
+                <input type="text" id="title" name="title" placeholder="Название" class="w-full px-4 py-2 mb-4 mr-4 text-base text-blue-700 bg-gray-100 border-transparent rounded-lg focus:border-gray-500 focus:bg-white focus:ring-0">
                 @if ($errors->has('title'))
                     <div class="text-red-500 mb-4">
                         Укажите название
+                    </div>
+                @endif
+            </div>
+            <div class="relative">
+                <input type="text" id="title_code" name="title_code" placeholder="Код" class="w-full px-4 py-2 mb-4 mr-4 text-base text-blue-700 bg-gray-100 border-transparent rounded-lg focus:border-gray-500 focus:bg-white focus:ring-0">
+                @if ($errors->has('title_code'))
+                    <div class="text-red-500 mb-4">
+                        Укажите код
                     </div>
                 @endif
             </div>
