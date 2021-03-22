@@ -115,7 +115,7 @@
                             <div class="text-sm font-medium text-gray-900 rounded-full px-3 py-1 @if($key->status == 'waiting') bg-yellow-200 @elseif($key->status == 'active') bg-green-200 @endif">
                                 @if($key->status == 'waiting')
                                     ожидает активации
-                                @elseif($key->status == 'waiting')
+                                @elseif($key->status == 'active')
                                     активирован
                                 @endif
                             </div>
