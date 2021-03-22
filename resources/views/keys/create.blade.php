@@ -23,21 +23,21 @@
 
                     <label>Тема</label>
                     <select name="dreambox_theme" class="block w-full bg-gray-100 border-transparent rounded-lg focus:border-gray-500 focus:bg-white focus:ring-0">
-                        <option value="default">Стандартная 1</option>
-                        <option value="nast">Стандартная 2</option>
+                        <!--<option value="default">Стандартная 1</option>
+                        <option value="nast">Стандартная 2</option>-->
                         <option value="med">Медцентр</option>
                         <option value="detsad">Детсад</option>
-                        <option value="book">Книга</option>
+                        <!--<option value="book">Книга</option>-->
                     </select>
 
                     <label>Ориентация экрана</label>
                     <select name="dreambox_orientation" class="block w-full bg-gray-100 border-transparent rounded-lg focus:border-gray-500 focus:bg-white focus:ring-0">
                         <option value="horizontal">Горизонтальная</option>
-                        <option value="vertical">Вертикальная</option>
+                        <!--<option value="vertical">Вертикальная</option>-->
                     </select>
 
                     <label>Заголовок на экране</label>
-                    <input type="text" name="dreambox_title" class="w-full px-4 py-2 mb-4 mr-4 text-base text-blue-700 bg-gray-100 border-transparent rounded-lg focus:border-gray-500 focus:bg-white focus:ring-0">
+                    <input type="text" name="dreambox_title" class="w-full px-4 py-2 mb-4 mr-4 text-base text-blue-700 bg-gray-100 border-transparent rounded-lg focus:border-gray-500 focus:bg-white focus:ring-0" required>
 
                     <hr>
 
