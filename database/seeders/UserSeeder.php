@@ -9,18 +9,13 @@ use Illuminate\Support\Str;
 
 class UserSeeder extends Seeder
 {
-    /**
-     * Run the database seeds.
-     *
-     * @return void
-     */
     public function run()
     {
         DB::table('users')->insert([
             'id' => '1',
             'name' => 'dreamadmin',
             'email' => 'dream@admin',
-            'password' => '$2y$10$FOltn22eC0tUSVFcOp9ufu5nt6PGUvXBAzTKBA0wTgT.2cNWXHD8C',
+            'password' => '$2y$10$875TzKjfPaT4xkl/TAZYXe8qaQeeyJ9ZyQbShJ5TWJguFxA71T8Au',
         ]);
     }
 }

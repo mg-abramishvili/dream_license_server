@@ -26,8 +26,8 @@
                         <!--<option value="default">Стандартная 1</option>
                         <option value="nast">Стандартная 2</option>-->
                         <option value="med">Медцентр</option>
-                        <option value="muzei">Музей</option>
-                        <!--<option value="detsad">Детсад</option>
+                        <!--<option value="muzei">Музей</option>
+                        <option value="detsad">Детсад</option>
                         <option value="book">Книга</option>-->
                     </select>
 
