@@ -2,6 +2,7 @@
 @section('content')
 
             <div class="flex flex-col w-full p-8 mx-auto mt-10 mb-6 border rounded-lg lg:w-1/1 md:w-1/2 md:ml-auto md:mt-0">
+                <h1 class="text-2xl mt-0 mb-4">Новый ключ</h1>
                 <form action="/keys" method="post" enctype="multipart/form-data">@csrf
                     <div class="relative px-4 py-2 mb-4 bg-gray-100 border-transparent rounded-lg focus:border-gray-500 focus:bg-white focus:ring-0">
                         <label class="block">
