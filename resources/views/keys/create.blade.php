@@ -22,8 +22,8 @@
                         @endif
                     </div>
 
-                    <label class="font-semibold">Тема</label>
-                    <select name="dreambox_theme" class="block w-full mb-4 bg-gray-100 border-transparent rounded-lg focus:border-gray-500 focus:bg-white focus:ring-0">
+                    <label class="font-semibold mb-1">Тема</label>
+                    <select name="dreambox_theme" class="block w-full mb-6 bg-gray-100 border-transparent rounded-lg focus:border-gray-500 focus:bg-white focus:ring-0">
                         <!--<option value="default">Стандартная 1</option>
                         <option value="nast">Стандартная 2</option>-->
                         <option value="med">Медцентр</option>
@@ -32,43 +32,43 @@
                         <option value="book">Книга</option>-->
                     </select>
 
-                    <label class="font-semibold">Ориентация экрана</label>
-                    <select name="dreambox_orientation" class="block w-full mb-4 bg-gray-100 border-transparent rounded-lg focus:border-gray-500 focus:bg-white focus:ring-0">
+                    <label class="font-semibold mb-1">Ориентация экрана</label>
+                    <select name="dreambox_orientation" class="block w-full mb-6 bg-gray-100 border-transparent rounded-lg focus:border-gray-500 focus:bg-white focus:ring-0">
                         <option value="horizontal">Горизонтальная</option>
                         <!--<option value="vertical">Вертикальная</option>-->
                     </select>
 
-                    <label class="font-semibold">Заголовок на экране</label>
-                    <input type="text" name="dreambox_title" class="w-full px-4 py-2 mb-4 mr-4 text-base text-blue-700 bg-gray-100 border-transparent rounded-lg focus:border-gray-500 focus:bg-white focus:ring-0" required>
+                    <label class="font-semibold mb-1">Заголовок на экране</label>
+                    <input type="text" name="dreambox_title" class="w-full px-4 py-2 mb-6 mr-4 text-base text-blue-700 bg-gray-100 border-transparent rounded-lg focus:border-gray-500 focus:bg-white focus:ring-0" required>
 
                     <hr class="mb-2">
 
-                    <label class="font-semibold">Модуль "Фотогалерея"</label>
-                    <select name="dreambox_module_photoalbums" class="block w-full mb-4 bg-gray-100 border-transparent rounded-lg focus:border-gray-500 focus:bg-white focus:ring-0">
+                    <label class="font-semibold mb-1">Модуль "Фотогалерея"</label>
+                    <select name="dreambox_module_photoalbums" class="block w-full mb-6 bg-gray-100 border-transparent rounded-lg focus:border-gray-500 focus:bg-white focus:ring-0">
                         <option value="n">Выкл</option>
                         <option value="y">Вкл</option>
                     </select>
 
-                    <label class="font-semibold">Модуль "Видеогалерея"</label>
-                    <select name="dreambox_module_videoalbums" class="block w-full mb-4 bg-gray-100 border-transparent rounded-lg focus:border-gray-500 focus:bg-white focus:ring-0">
+                    <label class="font-semibold mb-1">Модуль "Видеогалерея"</label>
+                    <select name="dreambox_module_videoalbums" class="block w-full mb-6 bg-gray-100 border-transparent rounded-lg focus:border-gray-500 focus:bg-white focus:ring-0">
                         <option value="n">Выкл</option>
                         <option value="y">Вкл</option>
                     </select>
 
-                    <label class="font-semibold">Модуль "Новости"</label>
-                    <select name="dreambox_module_news" class="block w-full mb-4 bg-gray-100 border-transparent rounded-lg focus:border-gray-500 focus:bg-white focus:ring-0">
+                    <label class="font-semibold mb-1">Модуль "Новости"</label>
+                    <select name="dreambox_module_news" class="block w-full mb-6 bg-gray-100 border-transparent rounded-lg focus:border-gray-500 focus:bg-white focus:ring-0">
                         <option value="n">Выкл</option>
                         <option value="y">Вкл</option>
                     </select>
 
-                    <label class="font-semibold">Модуль "Маршруты"</label>
-                    <select name="dreambox_module_routes" class="block w-full mb-4 bg-gray-100 border-transparent rounded-lg focus:border-gray-500 focus:bg-white focus:ring-0">
+                    <label class="font-semibold mb-1">Модуль "Маршруты"</label>
+                    <select name="dreambox_module_routes" class="block w-full mb-6 bg-gray-100 border-transparent rounded-lg focus:border-gray-500 focus:bg-white focus:ring-0">
                         <option value="n">Выкл</option>
                         <option value="y">Вкл</option>
                     </select>
 
-                    <label class="font-semibold">Модуль "Отзывы"</label>
-                    <select name="dreambox_module_reviews" class="block w-full mb-4 bg-gray-100 border-transparent rounded-lg focus:border-gray-500 focus:bg-white focus:ring-0">
+                    <label class="font-semibold mb-1">Модуль "Отзывы"</label>
+                    <select name="dreambox_module_reviews" class="block w-full mb-6 bg-gray-100 border-transparent rounded-lg focus:border-gray-500 focus:bg-white focus:ring-0">
                         <option value="n">Выкл</option>
                         <option value="y">Вкл</option>
                     </select>
