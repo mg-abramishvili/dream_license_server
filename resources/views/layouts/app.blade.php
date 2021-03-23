@@ -15,7 +15,7 @@
 
         <header class="text-gray-700 bg-white border-t border-b body-font">
             <div class="container flex flex-col flex-wrap p-5 mx-auto md:items-center md:flex-row ">
-                <a href="/" class="flex items-center w-40 mb-4 font-medium text-gray-900 title-font md:mb-0">
+                <a href="/" class="flex items-center w-30 mb-4 font-medium text-gray-900 title-font md:mb-0">
                     <img src="/img/logo-h.png">
                 </a>
                 <nav class="flex flex-wrap items-center justify-center text-base md:ml-auto ">
@@ -25,7 +25,7 @@
 
                 <form method="POST" action="{{ route('logout') }}">
                     @csrf
-                    <button type="submit" class="items-center px-8 py-2 mt-4 font-semibold text-blue-700 transition duration-500 ease-in-out transform bg-white border rounded-lg lg:inline-flex lg:mt-px hover:border-blue-800 hover:bg-blue-700 hover:text-white focus:ring focus:outline-none">Выйти</button>
+                    <button type="submit" class="items-center px-8 py-2 mt-4 font-semibold text-white transition duration-500 ease-in-out transform bg-white border rounded-lg lg:inline-flex lg:mt-px hover:border-blue-800 hover:bg-blue-700 hover:text-white focus:ring focus:outline-none">Выйти</button>
                 </form>
                 
             </div>
