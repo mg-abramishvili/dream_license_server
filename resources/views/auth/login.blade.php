@@ -47,7 +47,7 @@
                     </a>
                 @endif
 
-                <x-button class="w-full mt-2 p-2 text-center">
+                <x-button class="w-full mt-2 p-3 text-center justify-center">
                     Войти
                 </x-button>
             </div>
