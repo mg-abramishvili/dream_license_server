@@ -22,7 +22,7 @@
                     </div>
 
                     <label>Тема</label>
-                    <select name="dreambox_theme" class="block w-full bg-gray-100 border-transparent rounded-lg focus:border-gray-500 focus:bg-white focus:ring-0">
+                    <select name="dreambox_theme" class="block w-full mb-4 bg-gray-100 border-transparent rounded-lg focus:border-gray-500 focus:bg-white focus:ring-0">
                         <!--<option value="default">Стандартная 1</option>
                         <option value="nast">Стандартная 2</option>-->
                         <option value="med">Медцентр</option>
@@ -32,7 +32,7 @@
                     </select>
 
                     <label>Ориентация экрана</label>
-                    <select name="dreambox_orientation" class="block w-full bg-gray-100 border-transparent rounded-lg focus:border-gray-500 focus:bg-white focus:ring-0">
+                    <select name="dreambox_orientation" class="block w-full mb-4 bg-gray-100 border-transparent rounded-lg focus:border-gray-500 focus:bg-white focus:ring-0">
                         <option value="horizontal">Горизонтальная</option>
                         <!--<option value="vertical">Вертикальная</option>-->
                     </select>
@@ -43,31 +43,31 @@
                     <hr class="mb-2">
 
                     <label>Модуль "Фотогалерея"</label>
-                    <select name="dreambox_module_photoalbums" class="block w-full mb-2 bg-gray-100 border-transparent rounded-lg focus:border-gray-500 focus:bg-white focus:ring-0">
+                    <select name="dreambox_module_photoalbums" class="block w-full mb-4 bg-gray-100 border-transparent rounded-lg focus:border-gray-500 focus:bg-white focus:ring-0">
                         <option value="n">Выкл</option>
                         <option value="y">Вкл</option>
                     </select>
 
                     <label>Модуль "Видеогалерея"</label>
-                    <select name="dreambox_module_videoalbums" class="block w-full mb-2 bg-gray-100 border-transparent rounded-lg focus:border-gray-500 focus:bg-white focus:ring-0">
+                    <select name="dreambox_module_videoalbums" class="block w-full mb-4 bg-gray-100 border-transparent rounded-lg focus:border-gray-500 focus:bg-white focus:ring-0">
                         <option value="n">Выкл</option>
                         <option value="y">Вкл</option>
                     </select>
 
                     <label>Модуль "Новости"</label>
-                    <select name="dreambox_module_news" class="block w-full mb-2 bg-gray-100 border-transparent rounded-lg focus:border-gray-500 focus:bg-white focus:ring-0">
+                    <select name="dreambox_module_news" class="block w-full mb-4 bg-gray-100 border-transparent rounded-lg focus:border-gray-500 focus:bg-white focus:ring-0">
                         <option value="n">Выкл</option>
                         <option value="y">Вкл</option>
                     </select>
 
                     <label>Модуль "Маршруты"</label>
-                    <select name="dreambox_module_routes" class="block w-full mb-2 bg-gray-100 border-transparent rounded-lg focus:border-gray-500 focus:bg-white focus:ring-0">
+                    <select name="dreambox_module_routes" class="block w-full mb-4 bg-gray-100 border-transparent rounded-lg focus:border-gray-500 focus:bg-white focus:ring-0">
                         <option value="n">Выкл</option>
                         <option value="y">Вкл</option>
                     </select>
 
                     <label>Модуль "Отзывы"</label>
-                    <select name="dreambox_module_reviews" class="block w-full mb-2 bg-gray-100 border-transparent rounded-lg focus:border-gray-500 focus:bg-white focus:ring-0">
+                    <select name="dreambox_module_reviews" class="block w-full mb-4 bg-gray-100 border-transparent rounded-lg focus:border-gray-500 focus:bg-white focus:ring-0">
                         <option value="n">Выкл</option>
                         <option value="y">Вкл</option>
                     </select>
