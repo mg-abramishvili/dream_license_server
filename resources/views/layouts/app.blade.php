@@ -15,7 +15,7 @@
 
         <header class="text-gray-700 bg-white border-t border-b body-font">
             <div class="container flex flex-col flex-wrap p-5 mx-auto md:items-center md:flex-row ">
-                <a href="/" class="flex items-center w-30 mb-4 font-medium text-gray-900 title-font md:mb-0">
+                <a href="/" class="flex items-center w-20 mb-4 font-medium text-gray-900 title-font md:mb-0">
                     <img src="/img/logo-h.png">
                 </a>
                 <nav class="flex flex-wrap items-center justify-center text-base md:ml-auto ">
