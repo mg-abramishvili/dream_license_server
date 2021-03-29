@@ -128,8 +128,7 @@
                                 @endif
                             </div>
                             @if($key->fortest == 'test')
-                                <br>
-                                <div class="text-xs mt-2 font-medium text-gray-900 rounded-full px-3 py-1 bg-red-200">
+                                <div class="text-xs justify-center mt-2 font-medium text-gray-900 rounded-full px-3 py-1 bg-red-200">
                                     <a href="/keys/delete/{{ $key->id }}" class="text-gray-600">Удалить ключ</a>
                                 </div>
                             @endif
