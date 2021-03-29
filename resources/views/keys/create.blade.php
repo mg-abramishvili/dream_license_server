@@ -75,6 +75,12 @@
                         <option value="y">Вкл</option>
                     </select>
 
+                    <label class="font-semibold block mb-1">Тип ключа</label>
+                    <select name="fortest" class="block w-full mb-6 bg-gray-100 border-transparent rounded-lg focus:border-gray-500 focus:bg-white focus:ring-0">
+                        <option value="test">Тестовый</option>
+                        <option value="prod">Боевой</option>
+                    </select>
+
                     <button class="w-full px-8 py-2 font-semibold text-white transition duration-500 ease-in-out transform rounded-lg shadow-xl bg-gradient-to-r from-blue-700 hover:from-blue-600 to-blue-600 hover:to-blue-700 focus:ring focus:outline-none">Добавить ключ</button>
                 </form>
             </div>

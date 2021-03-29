@@ -126,12 +126,13 @@
                                 @elseif($key->status == 'active')
                                     активирован
                                 @endif
+
+                                @if($key->fortest == 'test')
+                                    <a href="/keys/delete/{{ $key->id }}" class="text-indigo-600 hover:text-indigo-900">Удалить</a>
+                                @endif
                             </div>
                         </div>
                     </td>
-                    <!--<td class="px-6 py-4 whitespace-nowrap text-right text-sm font-medium">
-                        <a href="/keys/delete/{{ $key->id }}" class="text-indigo-600 hover:text-indigo-900">Удалить</a>
-                    </td>-->
                 </tr>
                 @endforeach
             </tbody>

@@ -39,6 +39,7 @@ class KeyController extends Controller
         $key->key = \Str::upper($generate1."-".$generate2."-".$generate3."-".$generate4);
         $key->status = 'waiting';
         $key->comment = $data['comment'];
+        $key->fortest = $data['fortest'];
         $key->save();
         $key->programs()->attach($request->programs, ['key_id' => $key->id]);
         $parameters = new Parameter([
