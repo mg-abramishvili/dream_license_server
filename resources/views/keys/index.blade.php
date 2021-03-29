@@ -126,7 +126,9 @@
                                 @elseif($key->status == 'active')
                                     активирован
                                 @endif
-
+                            </div>
+                            <br>
+                            <div class="text-sm font-medium text-gray-900 rounded-full px-3 py-1 bg-red-200">
                                 @if($key->fortest == 'test')
                                     <a href="/keys/delete/{{ $key->id }}" class="text-indigo-600 hover:text-indigo-900">Удалить</a>
                                 @endif
