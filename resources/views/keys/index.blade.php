@@ -129,7 +129,7 @@
                             </div>
                             @if($key->fortest == 'test')
                                 <div class="text-xs text-center justify-center mt-2 font-medium text-gray-900 rounded-full px-3 py-1">
-                                    <a href="/keys/delete/{{ $key->id }}" class="text-red-400 border-red-400 border-b border-dashed">Удалить ключ</a>
+                                    <a href="/keys/delete/{{ $key->id }}" class="text-red-400 hover:text-red-600 border-red-400 hover:border-red-600 border-b border-dashed">Удалить ключ</a>
                                 </div>
                             @endif
                         </div>
