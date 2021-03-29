@@ -120,7 +120,7 @@
                     </td>
                     <td class="px-6 py-4 whitespace-nowrap">
                         <div>
-                            <div class="text-sm font-medium text-gray-900 rounded-full px-3 py-1 @if($key->status == 'waiting') bg-yellow-200 @elseif($key->status == 'active') bg-green-200 @endif">
+                            <div class="text-sm text-center justify-center font-medium text-gray-900 rounded-full px-3 py-1 @if($key->status == 'waiting') bg-yellow-200 @elseif($key->status == 'active') bg-green-200 @endif">
                                 @if($key->status == 'waiting')
                                     ожидает активации
                                 @elseif($key->status == 'active')
