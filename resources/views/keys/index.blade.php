@@ -19,7 +19,7 @@
                     <th scope="col" class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
                         Комментарий
                     </th>
-                    <th scope="col" class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
+                    <th scope="col" class="max-w-sm px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
                         Параметры
                     </th>
                     <th scope="col" class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
@@ -59,7 +59,7 @@
                             </div>
                         </div>
                     </td>
-                    <td class="px-6 py-4">
+                    <td class="px-6 py-4 max-w-sm">
                         <div class="flex items-center">
                             <div class="text-sm font-medium text-gray-900">
                                 @foreach($key->parameters as $parameter)
