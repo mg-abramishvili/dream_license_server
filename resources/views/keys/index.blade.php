@@ -33,17 +33,17 @@
             <tbody class="bg-white divide-y divide-gray-200">
             @foreach($keys as $key)
                 <tr>
-                    <td class="px-6 py-4 whitespace-nowrap">
+                    <td class="px-6 py-4">
                         <div class="flex items-center">
                             <div class="text-sm font-medium text-gray-500">{{ $key->id }}</div>
                         </div>
                     </td>
-                    <td class="px-6 py-4 whitespace-nowrap">
+                    <td class="px-6 py-4">
                         <div class="flex items-center">
                             <div class="text-sm font-medium text-gray-900">{{ $key->key }}</div>
                         </div>
                     </td>
-                    <td class="px-6 py-4 whitespace-nowrap">
+                    <td class="px-6 py-4">
                         <div class="flex items-center">
                             <div class="text-sm font-medium text-gray-900">
                                 @foreach($key->programs as $program)
@@ -52,14 +52,14 @@
                             </div>
                         </div>
                     </td>
-                    <td class="px-6 py-4 whitespace-nowrap">
+                    <td class="px-6 py-4">
                         <div class="flex items-center">
                             <div class="text-sm font-medium text-gray-900">
                                 {{ $key->comment }}
                             </div>
                         </div>
                     </td>
-                    <td class="px-6 py-4 whitespace-nowrap">
+                    <td class="px-6 py-4">
                         <div class="flex items-center">
                             <div class="text-sm font-medium text-gray-900">
                                 @foreach($key->parameters as $parameter)
@@ -118,7 +118,7 @@
                             </div>
                         </div>
                     </td>
-                    <td class="px-6 py-4 whitespace-nowrap">
+                    <td class="px-6 py-4">
                         <div>
                             <div class="text-sm text-center justify-center font-medium text-gray-900 rounded-full px-3 py-1 @if($key->status == 'waiting') bg-yellow-200 @elseif($key->status == 'active') bg-green-200 @endif">
                                 @if($key->status == 'waiting')
