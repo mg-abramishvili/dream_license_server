@@ -52,7 +52,7 @@
                             </div>
                         </div>
                     </td>
-                    <td class="px-6 py-4">
+                    <td class="px-6 py-4 max-w-sm">
                         <div class="flex items-center">
                             <div class="text-sm font-medium text-gray-900">
                                 {{ $key->comment }}
