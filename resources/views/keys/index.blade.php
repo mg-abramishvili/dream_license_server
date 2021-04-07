@@ -4,6 +4,7 @@
     <div class="flex flex-wrap w-full">
         <div class="inline-flex w-1/2">
             <h1 class="text-3xl mt-0 mb-6">Боевые ключи</h1>
+            <span>{{ count($keys->where("fortest", 'prod')) }}</span>
         </div>
         <div class="inline-flex w-1/2 justify-end">
             <a href="/keys/create" class="items-center px-8 py-2 mt-4 mb-4 mr-2 font-semibold text-white transition duration-500 ease-in-out transform bg-blue-700 border rounded-lg lg:inline-flex lg:mt-px hover:border-blue-700 hover:bg-blue-600 hover:text-white focus:ring focus:outline-none">Добавить ключ</a>
