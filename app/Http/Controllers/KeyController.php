@@ -13,7 +13,7 @@ class KeyController extends Controller
 {
     public function index()
     {
-        $keys = Key::latest()->get();
+        $keys = Key::where('fortest', 'prod')->latest()->get();
         return view('keys.index', compact('keys'));
     }
 

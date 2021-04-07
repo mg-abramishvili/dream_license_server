@@ -3,6 +3,7 @@
 use Illuminate\Support\Facades\Route;
 
 use App\Http\Controllers\KeyController;
+use App\Http\Controllers\KeyTestController;
 use App\Http\Controllers\ProgramController;
 
 Route::get('/', function () {
@@ -12,6 +13,8 @@ Route::get('/', function () {
 // Ключи
 Route::resource('/keys', KeyController::class)->middleware(['auth']);
 Route::get('/keys/delete/{id}','App\Http\Controllers\KeyController@delete')->middleware(['auth']);
+// Тестовые
+Route::resource('/test-keys', KeyTestController::class)->middleware(['auth']);
 
 // Софт
 Route::resource('/programs', ProgramController::class)->middleware(['auth']);
