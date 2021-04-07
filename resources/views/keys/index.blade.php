@@ -3,6 +3,8 @@
 
     <a href="/keys/create" class="items-center px-8 py-2 mt-4 mb-4 mr-2 font-semibold text-white transition duration-500 ease-in-out transform bg-blue-700 border rounded-lg lg:inline-flex lg:mt-px hover:border-blue-700 hover:bg-blue-600 hover:text-white focus:ring focus:outline-none">Добавить ключ</a>
 
+    <h1 class="text-3xl mt-0 mb-6">Боевые ключи</h1>
+
     <div class="w-full shadow overflow-hidden border-b border-gray-200 sm:rounded-lg">
         <table class="min-w-full divide-y divide-gray-200">
             <thead class="bg-gray-50">

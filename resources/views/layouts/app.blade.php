@@ -19,7 +19,8 @@
                     <img src="/img/logo-h.png">
                 </a>
                 <nav class="flex flex-wrap items-center justify-center text-base md:ml-auto ">
-                    <a href="/keys" class="mr-5 text-sm font-semibold text-gray-600 hover:text-gray-800">Ключи</a>
+                    <a href="/keys" class="mr-5 text-sm font-semibold text-gray-600 hover:text-gray-800">Боевые ключи</a>
+                    <a href="/test-keys" class="mr-5 text-sm font-semibold text-gray-600 hover:text-gray-800">Тестовые ключи</a>
                     <!--<a href="/programs" class="mr-5 text-sm font-semibold text-gray-600 hover:text-gray-800">Софт</a>-->
                 </nav>
 
