@@ -3,7 +3,7 @@
 
     <div class="flex flex-wrap w-full">
         <div class="inline-flex w-1/2">
-            <h1 class="text-3xl mt-0 mb-6">Боевые ключи</h1>
+            <h1 class="text-3xl mt-0 mb-3 block w-full">Боевые ключи</h1>
             <span class="block w-full">Всего: {{ count($keys->where("fortest", 'prod')) }} | Ожидают активации: {{ count($keys->where("fortest", 'test')) }}</span>
         </div>
         <div class="inline-flex w-1/2 justify-end">
