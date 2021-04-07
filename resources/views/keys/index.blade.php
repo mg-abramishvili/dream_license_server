@@ -1,7 +1,7 @@
 @extends('layouts.app')
 @section('content')
 
-    <div class="flex flex-wrap w-full mb-4 items-center">
+    <div class="flex flex-wrap w-full mb-6 items-center">
         <div class="flex-wrap w-1/2">
             <h1 class="text-3xl mt-0 mb-0 flex w-full">Боевые ключи</h1>
             <span class="flex w-full">Всего: {{ count($keys->where("fortest", 'prod')) }} | Ожидают активации: {{ count($keys->where("fortest", 'test')) }}</span>
