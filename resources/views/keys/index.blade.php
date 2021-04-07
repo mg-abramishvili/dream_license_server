@@ -3,8 +3,9 @@
 
     <div class="flex flex-wrap w-full">
         <div class="inline-flex w-1/2">
-            <h1 class="text-3xl mt-0 mb-3 block w-full">Боевые ключи</h1>
-            <span class="block w-full">Всего: {{ count($keys->where("fortest", 'prod')) }} | Ожидают активации: {{ count($keys->where("fortest", 'test')) }}</span>
+            <h1 class="text-3xl mt-0 mb-3">Боевые ключи</h1>
+            <br>
+            <span>Всего: {{ count($keys->where("fortest", 'prod')) }} | Ожидают активации: {{ count($keys->where("fortest", 'test')) }}</span>
         </div>
         <div class="inline-flex w-1/2 justify-end">
             <a href="/keys/create" class="items-center px-8 py-2 mt-4 mb-4 mr-2 font-semibold text-white transition duration-500 ease-in-out transform bg-blue-700 border rounded-lg lg:inline-flex lg:mt-px hover:border-blue-700 hover:bg-blue-600 hover:text-white focus:ring focus:outline-none">Добавить ключ</a>
