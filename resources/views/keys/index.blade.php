@@ -1,13 +1,13 @@
 @extends('layouts.app')
 @section('content')
 
-    <div class="flex flex-wrap w-full mb-4">
-        <div class="inline-flex w-1/2 self-auto">
-            <h1 class="text-3xl mt-0 mb-0 inline-flex self-auto">Боевые ключи</h1>
-            <span class="inline-flex self-auto ml-4">Всего: {{ count($keys->where("fortest", 'prod')) }} | Ожидают активации: {{ count($keys->where("fortest", 'test')) }}</span>
+    <div class="flex flex-wrap w-full mb-4 items-center">
+        <div class="inline-flex w-1/2">
+            <h1 class="text-3xl mt-0 mb-0 inline-flex">Боевые ключи</h1>
+            <span class="inline-flex ml-4">Всего: {{ count($keys->where("fortest", 'prod')) }} | Ожидают активации: {{ count($keys->where("fortest", 'test')) }}</span>
         </div>
-        <div class="inline-flex w-1/2 self-auto justify-end">
-            <a href="/keys/create" class="items-center px-8 py-2 mt-0 mb-0 mr-2 font-semibold text-white transition duration-500 ease-in-out transform bg-blue-700 border rounded-lg lg:inline-flex lg:mt-px hover:border-blue-700 hover:bg-blue-600 hover:text-white focus:ring focus:outline-none">Добавить ключ</a>
+        <div class="inline-flex w-1/2 justify-end">
+            <a href="/keys/create" class="items-center px-8 py-2 mt-0 mb-0 mr-0 font-semibold text-white transition duration-500 ease-in-out transform bg-blue-700 border rounded-lg lg:inline-flex lg:mt-px hover:border-blue-700 hover:bg-blue-600 hover:text-white focus:ring focus:outline-none">Добавить ключ</a>
         </div>
     </div>
 
