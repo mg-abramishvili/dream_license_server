@@ -107,6 +107,7 @@
                         $('#dreambox_module_news').show();
                         $('#dreambox_module_routes').show();
                         $('#dreambox_module_reviews').show();
+                        $('input[name="dreambox_title"]').val() = '';
                     } else if ($(this).find(":selected").val() === '2') {
                         $('#dreambox_theme').hide();
                         $('#dreambox_orientation').hide();
@@ -115,6 +116,7 @@
                         $('#dreambox_module_news').hide();
                         $('#dreambox_module_routes').hide();
                         $('#dreambox_module_reviews').hide();
+                        $('input[name="dreambox_title"]').val() = 'Navigator';
                     }
                 });
             </script>
