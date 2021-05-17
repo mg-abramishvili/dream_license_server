@@ -44,8 +44,10 @@
                         </select>
                     </div>
 
-                    <label class="font-semibold block mb-1">Заголовок на экране</label>
-                    <input type="text" name="dreambox_title" class="w-full px-4 py-2 mb-6 mr-4 text-base text-blue-700 bg-gray-100 border-transparent rounded-lg focus:border-gray-500 focus:bg-white focus:ring-0" required>
+                    <div id="dreambox_title">
+                        <label class="font-semibold block mb-1">Заголовок на экране</label>
+                        <input type="text" name="dreambox_title" class="w-full px-4 py-2 mb-6 mr-4 text-base text-blue-700 bg-gray-100 border-transparent rounded-lg focus:border-gray-500 focus:bg-white focus:ring-0" required>
+                    </div>
 
                     <div id="dreambox_module_photoalbums">
                         <label class="font-semibold block mb-1">Модуль "Фотогалерея"</label>
@@ -107,6 +109,7 @@
                         $('#dreambox_module_news').show();
                         $('#dreambox_module_routes').show();
                         $('#dreambox_module_reviews').show();
+                        $('#dreambox_title').show();
                         $('input[name="dreambox_title"]').val('');
                     } else if ($(this).find(":selected").val() === '2') {
                         $('#dreambox_theme').hide();
@@ -116,6 +119,7 @@
                         $('#dreambox_module_news').hide();
                         $('#dreambox_module_routes').hide();
                         $('#dreambox_module_reviews').hide();
+                        $('#dreambox_title').hide();
                         $('input[name="dreambox_title"]').val('Navigator');
                     }
                 });
