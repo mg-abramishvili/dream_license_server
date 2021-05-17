@@ -70,58 +70,64 @@
                     <td class="px-6 py-4 max-w-sm">
                         <div class="flex items-center">
                             <div class="text-sm font-medium text-gray-900">
-                                @foreach($key->parameters as $parameter)
-                                    @isset($parameter->dreambox_theme)
-                                        Тема: {{ $parameter->dreambox_theme }}<br>
-                                    @endisset
+                                @foreach($key->programs as $program)
+                                    @if($program->id == '1')
+                                        @foreach($key->parameters as $parameter)
+                                            @isset($parameter->dreambox_theme)
+                                                Тема: {{ $parameter->dreambox_theme }}<br>
+                                            @endisset
 
-                                    @isset($parameter->dreambox_orientation)
-                                        Ориентация: {{ $parameter->dreambox_orientation }}<br>
-                                    @endisset
+                                            @isset($parameter->dreambox_orientation)
+                                                Ориентация: {{ $parameter->dreambox_orientation }}<br>
+                                            @endisset
 
-                                    @isset($parameter->dreambox_title)
-                                        Заголовок: {{ $parameter->dreambox_title }}<br>
-                                    @endisset
+                                            @isset($parameter->dreambox_title)
+                                                Заголовок: {{ $parameter->dreambox_title }}<br>
+                                            @endisset
 
-                                    @isset($parameter->dreambox_module_photoalbums)
-                                        @if($parameter->dreambox_module_photoalbums == 'y')
-                                        Фотогалерея: Вкл<br>
-                                        @else
-                                        Фотогалерея: Выкл<br>
-                                        @endif
-                                    @endisset
+                                            @isset($parameter->dreambox_module_photoalbums)
+                                                @if($parameter->dreambox_module_photoalbums == 'y')
+                                                Фотогалерея: Вкл<br>
+                                                @else
+                                                Фотогалерея: Выкл<br>
+                                                @endif
+                                            @endisset
 
-                                    @isset($parameter->dreambox_module_videoalbums)
-                                        @if($parameter->dreambox_module_videoalbums == 'y')
-                                        Видеогалерея: Вкл<br>
-                                        @else
-                                        Видеогалерея: Выкл<br>
-                                        @endif
-                                    @endisset
+                                            @isset($parameter->dreambox_module_videoalbums)
+                                                @if($parameter->dreambox_module_videoalbums == 'y')
+                                                Видеогалерея: Вкл<br>
+                                                @else
+                                                Видеогалерея: Выкл<br>
+                                                @endif
+                                            @endisset
 
-                                    @isset($parameter->dreambox_module_news)
-                                        @if($parameter->dreambox_module_news == 'y')
-                                        Новости: Вкл<br>
-                                        @else
-                                        Новости: Выкл<br>
-                                        @endif
-                                    @endisset
+                                            @isset($parameter->dreambox_module_news)
+                                                @if($parameter->dreambox_module_news == 'y')
+                                                Новости: Вкл<br>
+                                                @else
+                                                Новости: Выкл<br>
+                                                @endif
+                                            @endisset
 
-                                    @isset($parameter->dreambox_module_routes)
-                                        @if($parameter->dreambox_module_routes == 'y')
-                                        Маршруты: Вкл<br>
-                                        @else
-                                        Маршруты: Выкл<br>
-                                        @endif
-                                    @endisset
+                                            @isset($parameter->dreambox_module_routes)
+                                                @if($parameter->dreambox_module_routes == 'y')
+                                                Маршруты: Вкл<br>
+                                                @else
+                                                Маршруты: Выкл<br>
+                                                @endif
+                                            @endisset
 
-                                    @isset($parameter->dreambox_module_reviews)
-                                        @if($parameter->dreambox_module_reviews == 'y')
-                                        Отзывы: Вкл<br>
-                                        @else
-                                        Отзывы: Выкл<br>
-                                        @endif
-                                    @endisset
+                                            @isset($parameter->dreambox_module_reviews)
+                                                @if($parameter->dreambox_module_reviews == 'y')
+                                                Отзывы: Вкл<br>
+                                                @else
+                                                Отзывы: Выкл<br>
+                                                @endif
+                                            @endisset
+                                        @endforeach
+                                    @elseif($program->id == '2')
+                                        -
+                                    @endif
                                 @endforeach
                             </div>
                         </div>
