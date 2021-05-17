@@ -7,7 +7,7 @@
 
         <title>Сервер лицензий DreamApp</title>
 
-        <script src="/js/jquery.js"></script>
+        <script src="/js/jquery.min.js"></script>
 
         <link rel="stylesheet" href="{{ asset('css/app.css') }}">
 
