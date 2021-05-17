@@ -85,4 +85,10 @@
                 </form>
             </div>
 
+            <script>
+                $('select[name="programs"]').on('change', function() {
+                    alert( this.value );
+                });
+            </script>
+
 @endsection
