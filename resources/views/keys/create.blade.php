@@ -87,7 +87,9 @@
 
             <script>
                 $('select[name="programs"]').on('change', function() {
-                    alert( this.value );
+                    if($(this).find(":selected").val() === '2') {
+                        alert("Nav")
+                    }
                 });
             </script>
 
