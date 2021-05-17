@@ -87,8 +87,22 @@
 
             <script>
                 $('select[name="programs"]').on('change', function() {
-                    if($(this).find(":selected").val() === '2') {
-                        alert("Nav")
+                    if($(this).find(":selected").val() === '1') {
+                        $('select[name="dreambox_theme"]').show();
+                        $('select[name="dreambox_orientation"]').show();
+                        $('select[name="dreambox_module_photoalbums"]').show();
+                        $('select[name="dreambox_module_videoalbums"]').show();
+                        $('select[name="dreambox_module_news"]').show();
+                        $('select[name="dreambox_module_routes"]').show();
+                        $('select[name="dreambox_module_reviews"]').show();
+                    } else if ($(this).find(":selected").val() === '2') {
+                        $('select[name="dreambox_theme"]').hide();
+                        $('select[name="dreambox_orientation"]').hide();
+                        $('select[name="dreambox_module_photoalbums"]').hide();
+                        $('select[name="dreambox_module_videoalbums"]').hide();
+                        $('select[name="dreambox_module_news"]').hide();
+                        $('select[name="dreambox_module_routes"]').hide();
+                        $('select[name="dreambox_module_reviews"]').hide();
                     }
                 });
             </script>
