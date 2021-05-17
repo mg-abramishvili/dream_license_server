@@ -22,58 +22,70 @@
                         @endif
                     </div>
 
-                    <label class="font-semibold block mb-1">Тема</label>
-                    <select name="dreambox_theme" class="block w-full mb-6 bg-gray-100 border-transparent rounded-lg focus:border-gray-500 focus:bg-white focus:ring-0">
-                        <!--<option value="default">Стандартная 1</option>
-                        <option value="nast">Стандартная 2</option>-->
-                        <option value="med">Медцентр</option>
-                        <option value="shkola">Школа</option>
-                        <option value="muzei">Музей</option>
-                        <!--<option value="detsad">Детсад</option>
-                        <option value="book">Книга</option>-->
-                    </select>
+                    <div id="dreambox_theme">
+                        <label class="font-semibold block mb-1">Тема</label>
+                        <select name="dreambox_theme" class="block w-full mb-6 bg-gray-100 border-transparent rounded-lg focus:border-gray-500 focus:bg-white focus:ring-0">
+                            <!--<option value="default">Стандартная 1</option>
+                            <option value="nast">Стандартная 2</option>-->
+                            <option value="med">Медцентр</option>
+                            <option value="shkola">Школа</option>
+                            <option value="muzei">Музей</option>
+                            <!--<option value="detsad">Детсад</option>
+                            <option value="book">Книга</option>-->
+                        </select>
+                    </div>
 
-                    <label class="font-semibold block mb-1">Ориентация экрана</label>
-                    <select name="dreambox_orientation" class="block w-full mb-6 bg-gray-100 border-transparent rounded-lg focus:border-gray-500 focus:bg-white focus:ring-0">
-                        <option value="horizontal">Горизонтальная</option>
-                        <option value="square">Квадрат</option>
-                        <option value="vertical">Вертикальная</option>
-                    </select>
+                    <div id="dreambox_orientation">
+                        <label class="font-semibold block mb-1">Ориентация экрана</label>
+                        <select name="dreambox_orientation" class="block w-full mb-6 bg-gray-100 border-transparent rounded-lg focus:border-gray-500 focus:bg-white focus:ring-0">
+                            <option value="horizontal">Горизонтальная</option>
+                            <option value="square">Квадрат</option>
+                            <option value="vertical">Вертикальная</option>
+                        </select>
+                    </div>
 
                     <label class="font-semibold block mb-1">Заголовок на экране</label>
                     <input type="text" name="dreambox_title" class="w-full px-4 py-2 mb-6 mr-4 text-base text-blue-700 bg-gray-100 border-transparent rounded-lg focus:border-gray-500 focus:bg-white focus:ring-0" required>
 
-                    <hr class="mb-2">
+                    <div id="dreambox_module_photoalbums">
+                        <label class="font-semibold block mb-1">Модуль "Фотогалерея"</label>
+                        <select name="dreambox_module_photoalbums" class="block w-full mb-6 bg-gray-100 border-transparent rounded-lg focus:border-gray-500 focus:bg-white focus:ring-0">
+                            <option value="n">Выкл</option>
+                            <option value="y">Вкл</option>
+                        </select>
+                    </div>
 
-                    <label class="font-semibold block mb-1">Модуль "Фотогалерея"</label>
-                    <select name="dreambox_module_photoalbums" class="block w-full mb-6 bg-gray-100 border-transparent rounded-lg focus:border-gray-500 focus:bg-white focus:ring-0">
-                        <option value="n">Выкл</option>
-                        <option value="y">Вкл</option>
-                    </select>
+                    <div id="dreambox_module_videoalbums">
+                        <label class="font-semibold block mb-1">Модуль "Видеогалерея"</label>
+                        <select name="dreambox_module_videoalbums" class="block w-full mb-6 bg-gray-100 border-transparent rounded-lg focus:border-gray-500 focus:bg-white focus:ring-0">
+                            <option value="n">Выкл</option>
+                            <option value="y">Вкл</option>
+                        </select>
+                    </div>
 
-                    <label class="font-semibold block mb-1">Модуль "Видеогалерея"</label>
-                    <select name="dreambox_module_videoalbums" class="block w-full mb-6 bg-gray-100 border-transparent rounded-lg focus:border-gray-500 focus:bg-white focus:ring-0">
-                        <option value="n">Выкл</option>
-                        <option value="y">Вкл</option>
-                    </select>
+                    <div id="dreambox_module_news">
+                        <label class="font-semibold block mb-1">Модуль "Новости"</label>
+                        <select name="dreambox_module_news" class="block w-full mb-6 bg-gray-100 border-transparent rounded-lg focus:border-gray-500 focus:bg-white focus:ring-0">
+                            <option value="n">Выкл</option>
+                            <option value="y">Вкл</option>
+                        </select>
+                    </div>
 
-                    <label class="font-semibold block mb-1">Модуль "Новости"</label>
-                    <select name="dreambox_module_news" class="block w-full mb-6 bg-gray-100 border-transparent rounded-lg focus:border-gray-500 focus:bg-white focus:ring-0">
-                        <option value="n">Выкл</option>
-                        <option value="y">Вкл</option>
-                    </select>
+                    <div id="dreambox_module_routes">
+                        <label class="font-semibold block mb-1">Модуль "Маршруты"</label>
+                        <select name="dreambox_module_routes" class="block w-full mb-6 bg-gray-100 border-transparent rounded-lg focus:border-gray-500 focus:bg-white focus:ring-0">
+                            <option value="n">Выкл</option>
+                            <option value="y">Вкл</option>
+                        </select>
+                    </div>
 
-                    <label class="font-semibold block mb-1">Модуль "Маршруты"</label>
-                    <select name="dreambox_module_routes" class="block w-full mb-6 bg-gray-100 border-transparent rounded-lg focus:border-gray-500 focus:bg-white focus:ring-0">
-                        <option value="n">Выкл</option>
-                        <option value="y">Вкл</option>
-                    </select>
-
-                    <label class="font-semibold block mb-1">Модуль "Отзывы"</label>
-                    <select name="dreambox_module_reviews" class="block w-full mb-6 bg-gray-100 border-transparent rounded-lg focus:border-gray-500 focus:bg-white focus:ring-0">
-                        <option value="n">Выкл</option>
-                        <option value="y">Вкл</option>
-                    </select>
+                    <div id="dreambox_module_reviews">
+                        <label class="font-semibold block mb-1">Модуль "Отзывы"</label>
+                        <select name="dreambox_module_reviews" class="block w-full mb-6 bg-gray-100 border-transparent rounded-lg focus:border-gray-500 focus:bg-white focus:ring-0">
+                            <option value="n">Выкл</option>
+                            <option value="y">Вкл</option>
+                        </select>
+                    </div>
 
                     <label class="font-semibold block mb-1">Тип ключа</label>
                     <select name="fortest" class="block w-full mb-6 bg-gray-100 border-transparent rounded-lg focus:border-gray-500 focus:bg-white focus:ring-0">
@@ -88,21 +100,21 @@
             <script>
                 $('select[name="programs"]').on('change', function() {
                     if($(this).find(":selected").val() === '1') {
-                        $('select[name="dreambox_theme"]').show();
-                        $('select[name="dreambox_orientation"]').show();
-                        $('select[name="dreambox_module_photoalbums"]').show();
-                        $('select[name="dreambox_module_videoalbums"]').show();
-                        $('select[name="dreambox_module_news"]').show();
-                        $('select[name="dreambox_module_routes"]').show();
-                        $('select[name="dreambox_module_reviews"]').show();
+                        $('#dreambox_theme').show();
+                        $('#dreambox_orientation').show();
+                        $('#dreambox_module_photoalbums').show();
+                        $('#dreambox_module_videoalbums').show();
+                        $('#dreambox_module_news').show();
+                        $('#dreambox_module_routes').show();
+                        $('#dreambox_module_reviews').show();
                     } else if ($(this).find(":selected").val() === '2') {
-                        $('select[name="dreambox_theme"]').hide();
-                        $('select[name="dreambox_orientation"]').hide();
-                        $('select[name="dreambox_module_photoalbums"]').hide();
-                        $('select[name="dreambox_module_videoalbums"]').hide();
-                        $('select[name="dreambox_module_news"]').hide();
-                        $('select[name="dreambox_module_routes"]').hide();
-                        $('select[name="dreambox_module_reviews"]').hide();
+                        $('#dreambox_theme').hide();
+                        $('#dreambox_orientation').hide();
+                        $('#dreambox_module_photoalbums').hide();
+                        $('#dreambox_module_videoalbums').hide();
+                        $('#dreambox_module_news').hide();
+                        $('#dreambox_module_routes').hide();
+                        $('#dreambox_module_reviews').hide();
                     }
                 });
             </script>
