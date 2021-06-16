@@ -25,13 +25,13 @@
                     <div id="dreambox_theme">
                         <label class="font-semibold block mb-1">Тема</label>
                         <select name="dreambox_theme" class="block w-full mb-6 bg-gray-100 border-transparent rounded-lg focus:border-gray-500 focus:bg-white focus:ring-0">
-                            <!--<option value="default">Стандартная 1</option>
-                            <option value="nast">Стандартная 2</option>-->
+                            <option value="default">Стандартная</option>
+                            <!--<option value="nast">Стандартная 2</option>-->
                             <option value="med">Медцентр</option>
                             <option value="shkola">Школа</option>
+                            <option value="vuz">ВУЗ</option>
                             <option value="muzei">Музей</option>
-                            <!--<option value="detsad">Детсад</option>
-                            <option value="book">Книга</option>-->
+                            <option value="detsad">Детсад</option>
                         </select>
                     </div>
 
@@ -39,8 +39,8 @@
                         <label class="font-semibold block mb-1">Ориентация экрана</label>
                         <select name="dreambox_orientation" class="block w-full mb-6 bg-gray-100 border-transparent rounded-lg focus:border-gray-500 focus:bg-white focus:ring-0">
                             <option value="horizontal">Горизонтальная</option>
-                            <option value="square">Квадрат</option>
-                            <option value="vertical">Вертикальная</option>
+                            <!--<option value="square">Квадрат</option>
+                            <option value="vertical">Вертикальная</option>-->
                         </select>
                     </div>
 
